@@ -9,6 +9,11 @@
         <Setter Property="Background" Value="Gray"/>
     </Style>
     <Style x:Key="ButtonStyle" TargetType="Button">
+        <Style.Resources>
+            <Style TargetType="Border">
+                <Setter Property="CornerRadius" Value="5" />
+            </Style>
+        </Style.Resources>
         <Setter Property="Background" Value="Gray"/>
         <Setter Property="Foreground" Value="White"/>
         <Setter Property="BorderBrush" Value="White"/>

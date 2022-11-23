@@ -8,7 +8,7 @@
         Title="MainWindow" Height="250" Width="300" Style="{DynamicResource WindowStyle}">
     <StackPanel>
         <ComboBox x:Name="styleBox"/>
-        <Button Content="Hello WPF" Style="{DynamicResource ButtonStyle}"/>
+        <Button Content="Hello WPF" Style="{DynamicResource ButtonStyle}" Margin="10"/>
         <TextBlock Text="Windows Presentation Foundation" Style="{DynamicResource TextBlockStyle}"/>
     </StackPanel>
 </Window>
